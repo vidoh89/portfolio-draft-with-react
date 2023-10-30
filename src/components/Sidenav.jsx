@@ -20,7 +20,7 @@ const Sidenav = ()=>{
                             <span className='pl-4'>Home</span>
                         </a>
                         <a href ='#work' className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 cusrsor-pointer hover:scale-110 ease-in duration-200'>
-                            <GrProjects size={20}/>
+                            <GrProjects size={20} className="fill-green-400"/>
                             <span className='pl-4'>Work</span>
                         </a>
                         <a href="#projects" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 cursor-pointer hover:scale-110 ease-in duration-200'>
@@ -46,20 +46,20 @@ const Sidenav = ()=>{
             {/* Nav sidebar for bigger screens */}
             <div className='md:block hidden fixed top-[25%] z-10'>
                 <div className='flex flex-col'>
-                    <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 '>
+                    <a href="#main" className='rounded-full shadow-lg bg-gray-700 shadow-green-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-cyan-300 hover:shadow-xl  '>
                         <AiOutlineHome size={20} className='text-cyan-300'/>
                     </a>
-                    <a href="#work" className='rounded-full shadow-lg  bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <GrProjects size={20} className=''/>
+                    <a href="#work" className='rounded-full shadow-lg bg-gray-700 shadow-green-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-cyan-300 hover:shadow-xl  '>
+                        <GrProjects size={20} className= 'text-cyan-300' />
                     </a>
-                    <a href="#projects" className='rounded-full shadow-lg bg-cyan-900 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineProject size={25} className='text-cyan-300 '/>
+                    <a href="#projects" className='rounded-full shadow-lg bg-gray-700 shadow-green-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-cyan-300 hover:shadow-xl '>
+                        <AiOutlineProject size={20} className='text-cyan-300 '/>
                     </a>
-                    <a href="#main" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a href="#main" className='rounded-full shadow-lg bg-gray-700 shadow-green-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-cyan-300 hover:shadow-xl '>
                         <BsPerson size={20} className='text-cyan-300'/>
 
                     </a>
-                    <a href="#contact" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <a href="#contact" className='rounded-full shadow-lg bg-gray-700 shadow-green-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300 hover:shadow-cyan-300 hover:shadow-xl '>
                         <AiOutlineMail size={20} className='text-cyan-300'/>
                     </a>
                 </div>
